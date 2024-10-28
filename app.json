@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/ise/ise",
+    "pages/spark/spark"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "派聪明 AI 助手 FinClip 版",
+    "navigationBarBackgroundColor": "#C00000",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "selectedColor": "#C00000",
+    "list": [
+      {
+        "pagePath": "pages/ise/ise",
+        "text": "开始语音聊天",
+        "iconPath": "static/ise.png",
+        "selectedIconPath": "static/ise_active.png"
+      },
+      {
+        "pagePath": "pages/spark/spark",
+        "text": "开始文字聊天",
+        "iconPath": "static/ise.png",
+        "selectedIconPath": "static/ise_active.png"
+      }
+    ]
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseAddress"
+  ],
+  "usingComponents": {}
+}

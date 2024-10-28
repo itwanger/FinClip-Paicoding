@@ -1,0 +1,1 @@
+<view>带上下文问题(可修改)：<input data-event-opts="{{[['input',[['__set_model',['','TEXT','$event',[]]]]]]}}" style="border:1px solid gainsboro;" value="{{TEXT}}" bindinput="__e"/><button data-event-opts="{{[['tap',[['sendToSpark']]]]}}" style="background-color:blue;color:white;" bindtap="__e">发送给派聪明</button><text style="width:90%;flex-wrap:wrap;">{{sparkResult}}</text></view>
