@@ -1,1 +1,18 @@
-<view>带上下文问题(可修改)：<input data-event-opts="{{[['input',[['__set_model',['','TEXT','$event',[]]]]]]}}" style="border:1px solid gainsboro;" value="{{TEXT}}" bindinput="__e"/><button data-event-opts="{{[['tap',[['sendToSpark']]]]}}" style="background-color:blue;color:white;" bindtap="__e">发送给派聪明</button><text style="width:90%;flex-wrap:wrap;">{{sparkResult}}</text></view>
+<view style="padding: 20px; background-color: #f9f9f9; height: 100%;">
+    <text style="font-size: 20px; font-weight: bold; margin-bottom: 10px;">带上下文问题 (可修改)：</text>
+    <input data-event-opts="{{[['input',[['__set_model',['','TEXT','$event',[]]]]]]}}"
+        style="border: 1px solid #ccc; border-radius: 5px; padding: 10px; width: 90%; margin-top: 10px;"
+        value="{{TEXT}}"
+        bindinput="__e"/>
+        
+    <button data-event-opts="{{[['tap',[['sendToSpark']]]]}}"
+        style="margin-top: 15px; background-color: #007AFF; color: white; border: none; border-radius: 5px; padding: 10px 15px; width: 100%;"
+        bindtap="__e">
+        发送给派聪明
+    </button>
+
+    <text style="margin-top: 20px; font-size: 16px; color: #333; line-height: 1.5; width: 100%; flex-wrap: wrap;">
+        {{sparkResult}}
+    </text>
+</view>
+

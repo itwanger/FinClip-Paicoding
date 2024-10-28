@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/ise/ise",
-    "pages/spark/spark"
+    "pages/spark/spark",
+    "pages/ise/ise"
   ],
   "subPackages": [],
   "window": {
@@ -13,18 +13,19 @@
   "tabBar": {
     "selectedColor": "#C00000",
     "list": [
+    {
+        "pagePath": "pages/spark/spark",
+        "text": "开始文字聊天",
+        "iconPath": "static/ise.png",
+        "selectedIconPath": "static/ise_active.png"
+        },
       {
         "pagePath": "pages/ise/ise",
         "text": "开始语音聊天",
         "iconPath": "static/ise.png",
         "selectedIconPath": "static/ise_active.png"
-      },
-      {
-        "pagePath": "pages/spark/spark",
-        "text": "开始文字聊天",
-        "iconPath": "static/ise.png",
-        "selectedIconPath": "static/ise_active.png"
       }
+      
     ]
   },
   "requiredPrivateInfos": [
