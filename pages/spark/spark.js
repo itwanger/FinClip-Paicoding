@@ -168,10 +168,10 @@ var _default = {
       httpUrl: "https://spark-api.xf-yun.com/v3.5/chat",
       modelDomain: 'generalv3.5',
       // V1.1-V3.5动态获取，高于以上版本手动指定
-      APPID: '5ea2cca1',
+      APPID: '',
       // 控制台获取填写
-      APISecret: 'YzQ0ZWQ1MDZkYmQ4MmE3NjU4MmIwZGVj',
-      APIKey: '88dd6dbf27cbad1203bc18be0e9a2640',
+      APISecret: '',
+      APIKey: '',
       sparkResult: '',
       historyTextList: [],
       // 历史会话信息，由于最大token12000,可以结合实际使用，进行移出
